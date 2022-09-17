@@ -1,6 +1,0 @@
-Django~=3.2
-djangorestframework~=3.12
-django-filter~=21.1
-requests~=2.26
-jsonpath2~=0.4
-

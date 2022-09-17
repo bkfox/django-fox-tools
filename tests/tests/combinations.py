@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from tools.combinations import *
+from fox_tools.combinations import *
 
 
 __all__ = ('VariableTestCase', 'CombinationsTestCase', 'FunctionsTestCase')

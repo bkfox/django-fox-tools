@@ -2,7 +2,7 @@ import io
 import requests
 from rest_framework.parsers import JSONParser
 
-from tools.data import Reader, Readers, RecordSet
+from fox_tools.data import Reader, Readers, RecordSet
 from .base import task, Task
 
 

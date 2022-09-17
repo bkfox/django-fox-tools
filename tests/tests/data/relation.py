@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from tools.data import Pool, Relation, Record, RecordSet
+from fox_tools.data import Pool, Relation, Record, RecordSet
 
 
 __all__ = ('RelationTestCase',)

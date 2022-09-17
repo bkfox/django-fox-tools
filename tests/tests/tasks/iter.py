@@ -1,7 +1,7 @@
 from django.test import TestCase
 
-from tools.tasks import Task, Pool
-from tools.tasks.iter import IterTaskSet
+from fox_tools.tasks import Task, Pool
+from fox_tools.tasks.iter import IterTaskSet
 
 
 class IterTaskSetTestCase(TestCase):

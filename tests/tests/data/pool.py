@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from tools.data import Record, RecordSet, Pool
+from fox_tools.data import Record, RecordSet, Pool
 from .record_set import RecordSetTestCase
 
 

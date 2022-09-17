@@ -1,7 +1,7 @@
 import os
 
-from tools.tasks.iter import IterTaskSet
-from tools.tasks.http_request import DownloadRequest
+from fox_tools.tasks.iter import IterTaskSet
+from fox_tools.tasks.http_request import DownloadRequest
 
 
 __all__ = ('Scanner',) 

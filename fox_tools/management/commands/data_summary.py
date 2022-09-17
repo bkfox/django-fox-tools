@@ -7,8 +7,8 @@ import os
 import sys
 
 from django.core.management.base import BaseCommand
-from tools.data import DataReader
-from tools.tasks import Task, Pool
+from fox_tools.data import DataReader
+from fox_tools.tasks import Task, Pool
 
 
 __all__ = ('DataSummary',)

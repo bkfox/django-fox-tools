@@ -6,8 +6,8 @@ from rest_framework import serializers
 from rest_framework.parsers import JSONParser
 from rest_framework.renderers import JSONRenderer
 
-from tools.data import Pool, Reader, RecordSet
-from tools.tasks.http_request import *
+from fox_tools.data import Pool, Reader, RecordSet
+from fox_tools.tasks.http_request import *
 
 
 class TestResponse:

@@ -2,7 +2,7 @@ from django.test import TestCase
 
 from rest_framework import serializers
 
-from tools.data import as_json_path, Reader, Record
+from fox_tools.data import as_json_path, Reader, Record
 from tests.models import NameValue
 from tests.serializers import NameValueSerializer
 from . import samples

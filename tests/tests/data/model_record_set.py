@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from tools.data import Record, ModelRecordSet
+from fox_tools.data import Record, ModelRecordSet
 from . import samples
 from ...models import NameValue
 

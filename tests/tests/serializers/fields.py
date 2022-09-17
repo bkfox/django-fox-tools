@@ -1,5 +1,5 @@
 from django.test import TestCase
-from tools.serializers import Unsafe, MapField #, NestedField
+from fox_tools.serializers import Unsafe, MapField #, NestedField
 
 
 class MapFieldTestCase(TestCase):

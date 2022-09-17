@@ -1,7 +1,7 @@
 import time
 from django.test import TestCase
 
-from tools.tasks import BaseTask, Pool, Task, TaskSet, task
+from fox_tools.tasks import BaseTask, Pool, Task, TaskSet, task
 
 
 __all__ = ('slow_fib', 'Base', 'TaskTestCase', 'TaskSetTestCase')

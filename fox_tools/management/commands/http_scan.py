@@ -15,10 +15,10 @@ import requests
 
 from django.core.management.base import BaseCommand
 
-from tools.combinations import Variable, Combinations
-from tools.tasks import Pool
-from tools.tasks.http_request import DownloadRequest
-from tools.tasks.iter import IterTaskSet
+from fox_tools.combinations import Variable, Combinations
+from fox_tools.tasks import Pool
+from fox_tools.tasks.http_request import DownloadRequest
+from fox_tools.tasks.iter import IterTaskSet
 
 
 __all__ = ('Command',) 

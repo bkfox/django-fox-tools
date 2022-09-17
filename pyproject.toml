@@ -1,0 +1,36 @@
+[tool.poetry]
+name = 'django-fox-tools'
+version = '0.0.1'
+authors = [
+    'bkfox <thomas at bkfox dot net>',
+]
+description = 'Tools set for Django'
+readme = 'README.md'
+license = 'LICENSE'
+classifiers = [
+    'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
+    'Framework :: Django :: 4.1',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Internet :: WWW/HTTP :: HTTP Servers',
+    'Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries',
+]
+packages = [
+    { include = "fox_tools" }
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bkfox/django-fox-tools/"
+"Bug Tracker" = "https://github.com/bkfox/django-fox-tools/issues"
+
+[tool.poetry.dependencies]
+python = '^3.9'
+Django = '~4.1'
+djangorestframework = '~3.13'
+django-filter = '~22.1'
+requests = '~2.28'
+jsonpath2 = '~0.4'
+
+[build-system]
+requires = ["poetry-core~=1.2"]
+build-backend = "poetry.core.masonry.api"
+
